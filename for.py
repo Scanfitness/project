@@ -1,7 +1,7 @@
 # Creating a list of ten subjects and printing each of them in a list
 my_list = ["python", "html", "swift", "java", "javascript", "css", "sql", "goland", "react", "vue"]
-print(my_list)
-
+for v in my_list:   
+    print(my_list)
 
 # Create three lists containing the following: 
 a = "first_name"           
