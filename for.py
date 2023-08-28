@@ -10,7 +10,8 @@ c = "full_name"
 
 # The first name of everyone in my class
 first_name = ["samuel", "chadwick", "miracle", "jackson", "princess"]
-for a in first_name:                                      print(a)
+for a in first_name:                                     
+    print(a)
 
 # The second name of everyone in my class
 last_name = ["anselm", "royal", "chinaka", "josh", "justina"]
