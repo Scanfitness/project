@@ -21,13 +21,6 @@ for b in last_name:
 # Combination of the first and last name
 full_name = input("first_name: ")
 last_name = input("last_name: ")
-sum = "first_name" + "last_name"
-for c in last_name:
-    print("samuel" + "anselm")
-    print("chadwick" + "royal")
-    print("miracle" + "chinaka")
-    print("jackson" + "josh")
-    print("princess" + "justina")
 
 
 
