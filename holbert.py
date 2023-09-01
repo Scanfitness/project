@@ -1,4 +1,4 @@
-# Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line. Also print the integer stored in the variable number, followed by Battery street, followed by a new line.
+# Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line. Also print the integer stored in the variable number, with battery stret.
 
 script = "Programming is like building a multilingual puzzle"
 print(script)
@@ -11,8 +11,7 @@ print(f"{98}, Battery street")
 number = 3.14159
 print(f"Float: {number:.2f}")
 
-# Print 3 times a string stored in the variable str, followed by its first 9 characters.
-
+# Print 3 times a string stored in the variable str
 str = "Holberton School"
 print(f"{3 * str}{str[:9]}")
 
@@ -21,7 +20,7 @@ print(f"{3 * str}{str[:9]}")
 str1 = "Holberton"
 str2 = "School"
 str3 = f"{str1} {str2}"
-print(f"{str3}!")
+print(f"Welcome to {str3}!")
 
 # From the above print the following
 
