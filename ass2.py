@@ -1,6 +1,7 @@
 # Print all the letters of the alphabet in uppercase except J and T
-for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
-    if letter != 'J' and letter != 'T':
+for value in range(ord("A"), ord("Z") + 1):
+    letter = chr(value)
+    if letter not in ['J', 'T']:
         print(letter, end= " ")
 print()
 
